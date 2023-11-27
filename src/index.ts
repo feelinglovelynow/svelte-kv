@@ -1,3 +1,3 @@
-export * from './enumSvelteKVPoint.js'
-export * from './SvelteKV.js'
-export * from './typedefs.js'
+export * from '../tsc/enumSvelteKVPoint.d'
+export * from "../tsc/SvelteKV.d";
+export * from "../tsc/typedefs.d";
