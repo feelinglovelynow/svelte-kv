@@ -1,0 +1,9 @@
+{ // https://www.typescriptlang.org/tsconfig
+  "include": [
+    "./tsc/**/*",
+  ],
+  "compilerOptions": {
+    "module": "ES6", // Sets the module system for the program.
+    "target": "ES6",  // The target setting changes which JS features are downleveled and which are left intact.
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@feelinglovelynow/svelte-kv",
+  "version": "1.0.0",
+  "description": "Ease SvelteKit & Cloudflare KV workflow, where you may call Cloudflare's API during local development and utilize the platform object when deployed",
+  "author": "https://github.com/feelinglovelynow?tab=repositories",
+  "license": "MIT",
+  "type": "module",
+  "types": "./dist/index.ts",
+  "exports": "./dist/index.js",
+  "main": "./dist/index.js",
+  "svelte": "./dist/index.js",
+  "files": [
+    "dist",
+    "tsc",
+    "src"
+  ],
+  "keywords": [
+    "cloudflare",
+    "kv",
+    "database",
+    "svelte",
+    "sveltekit"
+  ],
+  "scripts": {
+    "build": "bash ./build.sh",
+    "cloud": "pnpm build && pnpm publish --access public ."
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.8",
+    "typescript": "^5.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feelinglovelynow/svelte-kv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/feelinglovelynow/svelte-kv/issues"
+  }
+}
