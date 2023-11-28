@@ -34,7 +34,7 @@ export class SvelteKV {
 
   /**
    * Get from Cloudflare KV via its key
-   * @param { string } key 
+   * @param { string } key - A key's name. The name may be at most 512 bytes. All printable, non-whitespace characters are valid.
    * @returns { Promise<any> }
   */
   async get (key) {
@@ -65,9 +65,9 @@ export class SvelteKV {
 
   /**
    * Put into Cloudflare KV
-   * @param { string } key 
-   * @param { any } value 
-   * @param { [string] } metadata 
+   * @param { string } key - A key's name. The name may be at most 512 bytes. All printable, non-whitespace characters are valid.
+   * @param { any } value - A byte sequence to be stored, up to 25 MiB in length.
+   * @param { string } [metadata] - Arbitrary stringified JSON to be associated with a key/value pair.
    * @returns { Promise<{ result: any, success: boolean, errors: { code: number, message: string }[], messages: { code: number, message: string }[] }> }
   */
   async put (key, value, metadata) {

@@ -1,5 +1,6 @@
 { // https://www.typescriptlang.org/tsconfig
   "include": [
+    "./src/**/*",
     "./tsc/**/*",
   ],
   "compilerOptions": {
