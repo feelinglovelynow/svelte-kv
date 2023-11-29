@@ -1,6 +1,6 @@
 {
   "name": "@feelinglovelynow/svelte-kv",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ease SvelteKit & Cloudflare KV workflow, where you may call Cloudflare's API during local development and utilize the platform object when deployed",
   "author": "https://github.com/feelinglovelynow?tab=repositories",
   "license": "MIT",
